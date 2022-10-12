@@ -1,13 +1,24 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@import url('https://fonts.googleapis.com/css2?family=Alata&family=Josefin+Sans:wght@300&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+    .btn {
+      @apply px-10 py-2 my-0 font-bold tracking-bigboi transition duration-500 uppercase border-2 border-black font-alata  hover:bg-black hover:text-white;
+    }
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+#hero {
+    background-image: url('images-folder/desktop/image-hero.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
 }
+
+@media(max-width: 576px) {
+    #hero {
+        background-image: url('images-folder/mobile/image-hero.jpg');
+        background-position: center;
+    }
+}
+
