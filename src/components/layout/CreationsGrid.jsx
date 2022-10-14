@@ -34,7 +34,7 @@ function CreationsGrid() {
                     <div className='absolute top-0 left-0 w-full h-full p-6 flex flex-col justify-end'>
                         <h5 className='duration-200 md:pr-10 group-hover:hidden'>Hello Earth</h5>
                     </div>
-                    <div class="absolute top-0 left-0 w-full h-full bg-gradient-to-t from-cyan-500 to-blue-500 opacity-10 transition duration-500 group-hover:opacity-0"></div>
+                    <div className="absolute top-0 left-0 w-full h-full bg-gradient-to-t from-cyan-500 to-blue-500 opacity-10 transition duration-500 group-hover:opacity-0"></div>
                 </div>
                 <div className="relative group overflow-hidden">
                     <img src={image2} alt="" className="relative w-full hidden md:block transition duration-500 ease-in-out group-hover:scale-110" />
@@ -42,7 +42,7 @@ function CreationsGrid() {
                     <div className='absolute top-0 left-0 w-full h-full p-6 flex flex-col justify-end'>
                         <h5 className='duration-200 md:pr-10 group-hover:hidden'>Strange Games</h5>
                     </div>
-                    <div class="absolute top-0 left-0 w-full h-full bg-gradient-to-t from-cyan-500 to-blue-500 opacity-10 transition duration-500 group-hover:opacity-0"></div>
+                    <div className="absolute top-0 left-0 w-full h-full bg-gradient-to-t from-cyan-500 to-blue-500 opacity-10 transition duration-500 group-hover:opacity-0"></div>
                 </div>
                 <div className="relative group overflow-hidden">
                     <img src={image3} alt="" className="relative w-full hidden md:block transition duration-500 ease-in-out group-hover:scale-110" />
@@ -50,7 +50,7 @@ function CreationsGrid() {
                     <div className='absolute top-0 left-0 w-full h-full p-6 flex flex-col justify-end'>
                         <h5 className='duration-200 md:pr-10 group-hover:hidden'>To Mars</h5>
                     </div>
-                    <div class="absolute top-0 left-0 w-full h-full bg-gradient-to-t from-cyan-500 to-blue-500 opacity-10 transition duration-500 group-hover:opacity-0"></div>
+                    <div className="absolute top-0 left-0 w-full h-full bg-gradient-to-t from-cyan-500 to-blue-500 opacity-10 transition duration-500 group-hover:opacity-0"></div>
                 </div>
                 <div className="relative group overflow-hidden">
                     <img src={image4} alt="" className="relative w-full hidden md:block transition duration-500 ease-in-out group-hover:scale-110" />
@@ -58,7 +58,7 @@ function CreationsGrid() {
                     <div className='absolute top-0 left-0 w-full h-full p-6 flex flex-col justify-end'>
                         <h5 className='duration-200 md:pr-10 group-hover:hidden'>Worldbend</h5>
                     </div>
-                    <div class="absolute top-0 left-0 w-full h-full bg-gradient-to-t from-cyan-500 to-blue-500 opacity-10 transition duration-500 group-hover:opacity-0"></div>
+                    <div className="absolute top-0 left-0 w-full h-full bg-gradient-to-t from-cyan-500 to-blue-500 opacity-10 transition duration-500 group-hover:opacity-0"></div>
                 </div>
                 <div className="relative group overflow-hidden">
                     <img src={image5} alt="" className="relative w-full hidden md:block transition duration-500 ease-in-out group-hover:scale-110" />
@@ -66,7 +66,7 @@ function CreationsGrid() {
                     <div className='absolute top-0 left-0 w-full h-full p-6 flex flex-col justify-end'>
                         <h5 className='duration-200 md:pr-10 group-hover:hidden'>Infinite highway</h5>
                     </div>
-                    <div class="absolute top-0 left-0 w-full h-full bg-gradient-to-t from-cyan-500 to-blue-500 opacity-10 transition duration-500 group-hover:opacity-0"></div>
+                    <div className="absolute top-0 left-0 w-full h-full bg-gradient-to-t from-cyan-500 to-blue-500 opacity-10 transition duration-500 group-hover:opacity-0"></div>
                 </div>
                 <div className="relative group overflow-hidden">
                     <img src={image6} alt="" className="relative w-full hidden md:block transition duration-500 ease-in-out group-hover:scale-110" />
@@ -74,7 +74,7 @@ function CreationsGrid() {
                     <div className='absolute top-0 left-0 w-full h-full p-6 flex flex-col justify-end'>
                         <h5 className='duration-200 md:pr-10 group-hover:hidden'>Play of the game</h5>
                     </div>
-                    <div class="absolute top-0 left-0 w-full h-full bg-gradient-to-t from-cyan-500 to-blue-500 opacity-10 transition duration-500 group-hover:opacity-0"></div>
+                    <div className="absolute top-0 left-0 w-full h-full bg-gradient-to-t from-cyan-500 to-blue-500 opacity-10 transition duration-500 group-hover:opacity-0"></div>
                 </div>
                 <div className="relative group overflow-hidden">
                     <img src={image7} alt="" className="relative w-full hidden md:block transition duration-500 ease-in-out group-hover:scale-110" />
@@ -82,7 +82,7 @@ function CreationsGrid() {
                     <div className='absolute top-0 left-0 w-full h-full p-6 flex flex-col justify-end'>
                         <h5 className='duration-200 md:pr-10 group-hover:hidden'>Moto Cross</h5>
                     </div>
-                    <div class="absolute top-0 left-0 w-full h-full bg-gradient-to-t from-cyan-500 to-blue-500 opacity-10 transition duration-500 group-hover:opacity-0"></div>
+                    <div className="absolute top-0 left-0 w-full h-full bg-gradient-to-t from-cyan-500 to-blue-500 opacity-10 transition duration-500 group-hover:opacity-0"></div>
                 </div>
                 <div className="relative group overflow-hidden">
                     <img src={image8} alt="" className="relative w-full hidden md:block transition duration-500 ease-in-out group-hover:scale-110" />
@@ -90,7 +90,7 @@ function CreationsGrid() {
                     <div className='absolute top-0 left-0 w-full h-full p-6 flex flex-col justify-end'>
                         <h5 className='duration-200 md:pr-10 group-hover:hidden'>Nordic nights</h5>
                     </div>
-                    <div class="absolute top-0 left-0 w-full h-full bg-gradient-to-t from-cyan-500 to-blue-500 opacity-10 transition duration-500 group-hover:opacity-0"></div>
+                    <div className="absolute top-0 left-0 w-full h-full bg-gradient-to-t from-cyan-500 to-blue-500 opacity-10 transition duration-500 group-hover:opacity-0"></div>
                 </div>
             </div>
             

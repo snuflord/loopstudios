@@ -15,7 +15,7 @@ module.exports = {
         },
         letterSpacing: {
           bigboi: '0.3em',
-        }
+        },
     },
   },
   plugins: [],
